@@ -1,1 +1,45 @@
+h1{
+	text-align: center;
+	font-family: fantasy;
+	text-shadow: white;
+	font-size: 6.7em;
+	color: #121129;
+	text-shadow: black;
+	margin-bottom: 5px;
+	display: inline;
 
+	background-image:url("titleback.jpg") ;
+	background-size: 15.9em 2em;
+	background-repeat:no-repeat;
+}
+h2 {
+	text-align: center;
+	font-family: fantasy;
+	font-size: 5em;
+	color: #123456;
+	text-shadow: black;
+	margin-bottom: 5px;
+
+}
+div.do {
+	background-image: url("do.jpg");
+
+}
+div.qoute1{
+	background-image: url(q1.jpg);
+}
+div.qoute1{
+	background-image: url(q2.jpg);
+}
+p{
+	font-size: 2em;
+	text-align: center;
+	font-family: sans-serif;
+}
+menu{
+	align-content: right;
+
+}
+body {
+	background-image: url("back.png");
+}
