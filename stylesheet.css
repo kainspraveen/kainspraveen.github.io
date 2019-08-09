@@ -89,12 +89,14 @@ div.heading{
 	}
 }
 div.image {
-	background-image: url("titleback.jpg");
 	height: 70%;
+	background-image: url("titleback.jpg");
+
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	background-blend-mode: overlay;
 
 }
 ul{
