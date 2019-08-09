@@ -19,27 +19,35 @@ div.heading{
 	color:#123456;
 	margin-top: 200px;
 }
-h1{
+.heading h1{
 	text-shadow: white;
 	font-size: 6.7em;
-	color: #39002e;
-	text-shadow: 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff, 0 0 40px #ffffff;
-	font-family: fantasy;
+	color: white;
+	font-family: monospace;
 	margin-bottom: 5px;
 	background-size: 15.9em 2em;
 }
-h2 {
+.heading h2{
+	text-shadow: white;
+	font-size:2em;
+	color: white;
+	font-family: serif;
+}
+.heading a{
+	color: white;
+}
+.inner_do h2 {
 	text-align: center;
 	margin-top: -17px;
-	font-family: fantasy;
+	font-family: serif;
 	font-weight: 400;
 	font-size: 1.5em;
 	color: #9a0e2f;
 	text-shadow: 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff, 0 0 40px #ffffff;
 	margin-bottom: 5px;
-
 }
-a{
+
+.innerdo .heading a{
 	margin-top: 20px;
 	font-size: 1.3em;
 	font-family:sans-serif;
@@ -89,6 +97,50 @@ div.image {
 	position: relative;
 
 }
+ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+
+}
+ul li {
+	float:left;
+	width: 240px;
+	height: 35px;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background color: white;
+
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display:block;
+}
+.list{
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	text-decoration: none;
+	color: white;
+	padding: none;
+	opacity: none;
+}
+.list:hover{
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
 .do{
 	background-image: url("do.jpeg");
 	height: 70%;
@@ -108,5 +160,4 @@ menu{
 }
 body { 
 	width: 100%;
-	background-image: url("back.png");
 }
