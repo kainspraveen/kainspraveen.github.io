@@ -59,7 +59,7 @@ div.heading{
 	font-weight: bold;
 	padding: 10px;
 	color: #900000;
-	border: 4px solid #fff;
+	border: 0.1px solid #fff;
 	text-align: center;
 	outline: none;
 	text-decoration: none;
@@ -99,6 +99,11 @@ div.image {
 	background-blend-mode: overlay;
 
 }
+.image_overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
 ul{
 	margin:0px;
 	padding: 0px;
@@ -106,8 +111,8 @@ ul{
 
 }
 ul li {
-	float:left;
-	width: 220.5px;
+	float: left;
+	width: 240px;
 	height: 35px;
 	background-color: black;
 	opacity: 0.8;
