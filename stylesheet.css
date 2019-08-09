@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
 *{
 	margin: 0;
 	height: 100%;
@@ -23,7 +24,7 @@ div.heading{
 	text-shadow: white;
 	font-size: 6.7em;
 	color: white;
-	font-family: monospace;
+	font-family: 'Vollkorn', serif;
 	margin-bottom: 5px;
 	background-size: 15.9em 2em;
 }
