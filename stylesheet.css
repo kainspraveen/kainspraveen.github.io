@@ -152,7 +152,7 @@ ul li:hover ul li {
 	transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 .do{
-	background-image: url("do.jpeg");
+	background-image: url("school.jpeg");
 	height: 70%;
 	background-position: center;
 	background-repeat: no-repeat;
