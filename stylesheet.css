@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 *{
 	margin: 0;
@@ -24,15 +24,16 @@ div.heading{
 .heading h1{
 	text-shadow: white;
 	font-size: 6.7em;
-	color: white;
-	font-family: 'Roboto Mono', monospace;
+	margin-top: -30px;
+	color: #e2e8f0;
+	font-family: 'Fira Sans', sans-serif;
 	margin-bottom: 5px;
 	background-size: 15.9em 2em;
 }
 .heading h2{
 	text-shadow: white;
 	font-size:2em;
-	color: white;
+	color: #e2e8f0;
 	font-family: serif;
 }
 .heading a{
@@ -44,7 +45,7 @@ div.heading{
 	font-family: serif;
 	font-weight: 400;
 	font-size: 1.5em;
-	color: #9a0e2f;
+	color: #e2e8f0;
 	text-shadow: 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff, 0 0 40px #ffffff;
 	margin-bottom: 5px;
 }
@@ -168,7 +169,7 @@ ul li:hover ul li {
 	margin-top: -120px;
 	text-shadow: white;
 	font-size: 5.5em;
-	color: white;
+	color: #e2e8f0;
 	font-family: 'Nunito', sans-serif;
 	margin-bottom: 5px;
 	background-size: 15.9em 2em;
