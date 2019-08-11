@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 *{
 	margin: 0;
@@ -25,7 +25,7 @@ div.heading{
 	text-shadow: white;
 	font-size: 6.7em;
 	color: white;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto Mono', monospace;
 	margin-bottom: 5px;
 	background-size: 15.9em 2em;
 }
@@ -82,7 +82,7 @@ div.heading{
 }
 @media only screen and (max-width: 540px){
 	.heading{
-		margin-top:150px;
+		margin-top:100px;
 	}
 	h1{
 		font-size:5em;
@@ -94,7 +94,6 @@ div.heading{
 div.image {
 	height: 70%;
 	background-image: url("titleback.jpg");
-
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -112,6 +111,13 @@ ul{
 	padding: 0px;
 	list-style: none;
 
+}
+.main{
+	justify-content: space-around;
+	width: 100%;
+	display: flex;
+	top: 0;
+	position: fixed;
 }
 ul li {
 	float: left;
@@ -157,7 +163,6 @@ ul li:hover ul li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
 }
 .do h1{
 	margin-top: -120px;
@@ -190,4 +195,5 @@ menu{
 }
 body { 
 	width: 100%;
+	margin-top: 35px;
 }
