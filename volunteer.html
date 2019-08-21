@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 <html>
 <style>
+	*{
+		margin: 0;
+		height: 100%;
+	}
 
 	@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
-	h2 {
+	h1 {
 		font-family: 'Source Code Pro', monospace;
-		color: black;
+		color:  #900C3F ;
+		font-size: 3.6em;
+	}
+	input  {
+		width: 100%;
+		margin: 10px 0;
+		border: thin;
+		position: relative;
+		border-radius: 6px;
+		cursor: pointer;
+		background-color: #d1d1d1
+	}
+	form {
+		margin-top: -500px;
+		height: 30px;
+		width: 100px;
+		border: thick;
+		border-color: black;
+
+	}
+	p {
+		margin-top: -250px;
 	}
 </style>
+<script type="text/javascript">
+	function validate () {
+		var x = document.forms["Sign"]["fname"].value;
+		if(x == "") {
+			alert("Name must be non-empty");
+		return false;
+		}
+		var x = document.forms["Sign"]["lname"].value;
+		if(x == "") {
+			alert("Name must be non-empty");
+		return false;
+		}
+		var x = document.forms["Sign"]["city"].value;
+		if(x == "") {
+			alert("City must be non-empty");
+		return false;
+		}
+		var x = document.forms["Sign"]["page"].value;
+		if(x == "" ) {
+			alert("Age must be non-empty");
+		return false;
+		}
+		if (x <1 || x>300) {
+			alert("Enter correct Age.")
+		}
+
+	}
+</script>
+
 <head>
 	<meta charset="utf-8">
-	<title>hhf/merch</title>
+	<title>Volunteer</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 	
 </head>
 <body>
-	<center><h2>Page not found!</h2></center>
+	<center><h1>Sign Up!</h1></center>
+	<center><form name="Sign" onsubmit="return validate()" action="#" method="post">
+		First Name: <input type="text" name="fname">
+		Last Name: <input type="text" name="lname">
+		Age: <input type="age" name="page">
+		City: <input type="text" name="city">
+		<input type="submit" value="Submit">
+		
+	</form></center>
+	<p>Thank You!</p>
+
+
+	</form>
+
 </body>
 
 </body>
 </html>
+
