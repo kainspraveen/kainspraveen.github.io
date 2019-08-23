@@ -9,7 +9,7 @@
 	@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 	h1 {
 		font-family: 'Source Code Pro', monospace;
-		color:  #900 ;
+		color:  #EBF6F7 ;
 		font-size: 3.6em;
 
 	}
@@ -17,11 +17,12 @@
 		width: 200px;
 		height: 30px;
 		margin: 30px 0;
+		text
 		align-self: right;
 		border: thin;
 		border-radius: 3px;
 		cursor: pointer; 
-		background-color: #d1d1d1
+		background-color: rgba(0,0,0,0.5);
 	}
 	input.buttnn {
 		background-color: #E5DADA;
@@ -56,7 +57,7 @@
 	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 	}
 	label {
-		color:black;
+		color:#DEEEF0;
 		
 	}
 	.buttnn {
@@ -74,7 +75,7 @@
 	}
 	.end {
 		font-family: 'Source Code Pro', monospace;
-		color: white;
+		color:#EBF6F7 ;
 		text-shadow: 0px 0px 0px black, 2px 2px 4px black;
 
 	}
@@ -104,6 +105,10 @@
 		if (x <1 || x>300) {
 			alert("Enter correct Age.")
 		}
+		if (typeof myVar === 'string' || myVar instanceof String) {
+			alert("That's not age!...")
+		}
+		
 
 	}
 </script>
@@ -120,10 +125,10 @@
 	<div class="sign">
 	<center><h1>Sign Up!</h1></center>
 	<center><form name="Sign" onsubmit="return validate()" action="#" method="post">
-		<label> First Name: </label> <input type="text" name="fname"><br>
-		<label>Last Name:</label> <input type="text" name="lname"><br>
-		<label>Age: </label><input type="age" name="page"><br>
-		<label>City:</label> <input type="text" name="city"><br>
+		<label> First Name: </label> <input type="text" name="fname" style='color:#EBF6F7'><br>
+		<label>Last Name:</label> <input type="text" name="lname" style='color:#EBF6F7'><br>
+		<label>Age: </label><input type="age" name="page" style='color:#EBF6F7'><br>
+		<label>City:</label> <input type="text" name="city" style='color:#EBF6F7'><br>
 		<input type="submit" value="Submit" class="buttnn">
 		
 	</form></center>
