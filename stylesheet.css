@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 *{
 	margin: 0;
 	height: 100%;
@@ -198,3 +199,43 @@ body {
 	width: 100%;
 	margin-top: 35px;
 }
+
+/*THIS PART IS FOR DONATIONS PAGE*/
+
+#donate *{
+	margin: 0;
+	height: 100%;
+	
+	}
+
+#donate .back {
+	background-image: url("donate_back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	}
+#donate h1 {
+	font-size: 4em;
+	font-family: 'Fira Sans', sans-serif;
+	color: #ECF0F1;
+	}
+/*#donate .left_box {
+	margin-top: -90%;
+	height: 80%;
+	width: 50%;
+	border-radius: 2px;
+	border:0.5px thin black;
+	background-blend-mode: overlay; 
+	background-color: rgba(0,0,0,0.5);
+
+}*/
+#donate .qoute {
+	color: #EAFAF1;
+	font-family: 'EB Garamond', serif;
+	position:absolute;
+	margin-top: -90%;
+	margin-left: 5%;
+
+}
+
+
