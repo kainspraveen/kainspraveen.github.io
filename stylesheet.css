@@ -212,6 +212,9 @@ body {
 	background-image: url("donate_back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
+	background-blend-mode: blur;
+	margin-top: 0;
 	
 	}
 #donate h1 {
@@ -229,13 +232,148 @@ body {
 	background-color: rgba(0,0,0,0.5);
 
 }*/
-#donate .qoute {
-	color: #EAFAF1;
-	font-family: 'EB Garamond', serif;
-	position:absolute;
-	margin-top: -90%;
-	margin-left: 5%;
+
+
+
+#donate ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
 
 }
+
+#donate .buttn{
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+	padding: 10px;
+	color: #900000;
+	border: 0.1px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+#donate .buttn:hover,.buttn:active{
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#donate .main{
+	justify-content: space-around;
+	width: 100%;
+	display: flex;
+	top: 0;
+	position: fixed;
+}
+
+
+#donate ul li {
+	float: left;
+	width: 240px;
+	height: 35px;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+#donate ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#donate ul li a:hover {
+	background color: white;
+
+}
+#donate ul li ul li {
+	display: none;
+}
+#donate ul li:hover ul li {
+	display:block;
+}
+#donate .list{
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	text-decoration: none;
+	color: white;
+	padding: none;
+	opacity: none;
+}
+#donate .list:hover{
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+#donate .buttn{
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+	padding: 10px;
+	color: #900000;
+	border: 0.1px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+#donate .buttn:hover,.buttn:active{
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#donate .qoute {
+	color: #EAFAF1;
+	clear: both;
+	font-family: 'EB Garamond', serif;
+	position: relative;
+	height: 200px;
+	margin-top: -130px;
+
+
+}
+
+#donate input  {
+		width: 200px;
+		height: 30px;
+		margin: 30px 0;
+		align-self: right;
+		border: thin;
+		border-radius: 3px;
+		cursor: pointer; 
+		background-color: rgba(0,0,0,0.5);
+	}
+#donate	input.buttnn {
+		background-color: #E5DADA;
+	}
+
+#donate .donate_box {
+	position: absolute;
+	margin-top: -120%;
+	height: 80%;
+	width: 50%;
+	margin-left: 25%;
+	border:4px thin #FDF290;
+	border-radius: 3px;
+	height: auto;
+	margin-top: 80px;
+	background-color: rgba(0,0,0,0.22);
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+	}
+#donate label {
+		color:#DEEEF0;
+		
+	}
+
+
+
+
 
 
