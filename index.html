@@ -1,101 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kains Praveen - ML Grad</title>
+    <title>Kains Praveen - Diplômé en ML</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="script" href="script.js"> -->
+    <link rel="html" href="index.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container-header">
-            <div class="header-content">
-                <img src="images/profile.jpg" alt="Kains Praveen" class="profile-pic">
-                <div class="header-text">
-                    <h1>Kains Praveen</h1>
-                    <p>ML Grad</p>
-                </div>
-            </div>
+    
+    <header class="hero">
+        <div class = "header-bar">
             <nav>
                 <ul>
-                    <li style="cursor: pointer;"><a href="#about">About</a></li>
-                    <li style="cursor: pointer;"><a href="#education">Education</a></li>
-                    <li style="cursor: pointer;"><a href="#experience">Experience</a></li>
-                    <li style="cursor: pointer;"><a href="#projects">Projects</a></li>
-                    <li style="cursor: pointer;"><a href="#research">Research</a></li>
-                    <li style="cursor: pointer;"><a href="#skills">Skills</a></li>
-                    <li style="cursor: pointer;"><a href="#volunteering">Volunteering</a></li>
-                    <li style="cursor: pointer;"><a href="#extracurricular">Extracurricular</a></li>
+                    <li style="cursor: pointer;"><a href="#about">À propos</a></li>
+                    <li style="cursor: pointer;"><a href="#education">Éducation</a></li>
+                    <li style="cursor: pointer;"><a href="#experience">Expérience</a></li>
+                    <li style="cursor: pointer;"><a href="#projects">Projets</a></li>
+                    <li style="cursor: pointer;"><a href="#research">Recherche</a></li>
+                    <!-- <li style="cursor: pointer;"><a href="#skills">Compétences</a></li>
+                    <li style="cursor: pointer;"><a href="#volunteering">Bénévolat</a></li>
+                    <li style="cursor: pointer;"><a href="#extracurricular">Activités extrascolaires</a></li> -->
                 </ul>
             </nav>
-            <div class="container-contact">
-                <a href="mailto:kainspraveen33@gmail.com">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
-                    </svg>
-                </a>
-                <ul>
-                    <li><a href="https://github.com/kainspraveen">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/kainsprav">LinkedIn</a></li>
-                </ul>
+            <div class="language-switcher">
+                <button id="langButton">EN</button>
             </div>
         </div>
+        <div class="header-content">
+            <!-- <img src="images/profile.jpg" alt="Kains Praveen" class="profile-pic"> -->
+            <div class="header-text">
+                <p class="name">Kains Praveen</p>
+            </div>
+            
+        </div>
+
+        <div class="bio">
+            <p align="center" class="tag">Bonjour! Je suis actuellement étudiant à <u class="underline">Mila</u> et <u>Université de Montréal</u>, où je poursuis <u class="underline">Apprentissage Automatique, D.E.S.S</u>. Fort d'une expérience en tant que praticien en apprentissage automatique, j'ai plus de 3 ans d'expérience dans la construction et le déploiement de solutions d'apprentissage automatique en environnements de production. Mon expertise inclut le développement de pipelines d'apprentissage automatique sur <u class="underline">Google Cloud</u> et <u class="underline">Open Shift Cloud</u>, avec un accent sur la mise en œuvre de pratiques <u class="underline">MLOPS</u> et de frameworks de surveillance de modèles pour une livraison efficace des solutions. Je suis particulièrement intéressé par les domaines de recherche en apprentissage automatique, visant à contribuer aux avancées dans ce domaine.</p>
+        </div>
+            
+        <div class="container-contact">
+            
+            <a href="mailto:kainspraveen33@gmail.com">
+                <img src="images/mail.svg" class="icon">
+            </a>
+            <a href="https://github.com/kainspraveen"><img src="images/github.svg" class="icon"></a>
+            <a href="https://linkedin.com/in/kainsprav"><img src="images/linkedin.svg" class="icon"></a>
+
+        </div>
+        <div class="chevron-icon">
+            <img src="images/chevron-down.svg">
+        </div>
+
     </header>
 
     <section id="about">
         <div class="container-header">
-            <h2>About Me</h2>
+            <h2>À propos de moi</h2>
         </div>
         <div class="container">
-            <p>Experienced ML researcher with a strong background in deep learning, computer vision, and distributed systems. Passionate about developing innovative solutions for complex problems and contributing to the field of artificial intelligence.</p>
+            <p>Chercheur expérimenté en ML avec une solide expérience en apprentissage profond, vision par ordinateur et systèmes distribués. Passionné par le développement de solutions innovantes pour des problèmes complexes et par la contribution au domaine de l'intelligence artificielle.</p>
         </div>
     </section>
 
     <section id="education">
         <div class="container">
-            
             <ul>
                 <li>
-                    <h3>Université de Montréal, Montreal, CA</h3>
-                    <p>Apprentissage automatique, D.E.S.S (AI) Sept 2024 - present</p>
+                    <h3>Université de Montréal, Montréal, CA</h3>
+                    <p>Apprentissage automatique, D.E.S.S (IA) Sept 2024 - présent</p>
                 </li>
                 <li>
-                    <h3>National Institute of Technology Karnataka, Surathkal (NITK) Karnataka, IN</h3>
-                    <p>Bachelor of Technology July 2017 - Dec 2021</p>
+                    <h3>Institut National de Technologie Karnataka, Surathkal (NITK) Karnataka, IN</h3>
+                    <p>Bachelor of Technology Juillet 2017 - Déc 2021</p>
                 </li>
-                
             </ul>
-            
         </div>
         <div class="container-header">
-            <h2>Education</h2>
+            <h2>Éducation</h2>
         </div>
     </section>
 
     <section id="experience">
         <div class="container-header">
-            <h2>Professional Experience</h2>
+            <h2>Expérience Professionnelle</h2>
         </div>
         <div class="container">
             <ul>
                 <li>
-                    <h3>Deutsche Bank Group, Pune, India</h3>
-                    <p>Senior Analyst July 2022 - present</p>
+                    <h3>Deutsche Bank Group, Pune, Inde</h3>
+                    <p>Analyste Senior Juillet 2022 - présent</p>
                     <ul>
-                        <li>Fine-Tuning and Instruct-Tuning LLMs for financial applications</li>
-                        <li>Serving LLMs on cloud with emphasis on low latency</li>
-                        <li>Built LLM based RAG pipelines for Transitional Risk and AI based Survey Analysis</li>
-                        <li>Designed and Built the first completely on-cloud Model Monitoring solution</li>
+                        <li>Affinage et ajustement des LLMs pour des applications financières</li>
+                        <li>Déploiement des LLMs sur le cloud avec un accent sur la faible latence</li>
+                        <li>Création de pipelines RAG basés sur LLM pour l'analyse des risques transitionnels et des enquêtes basées sur l'IA</li>
+                        <li>Conception et mise en place de la première solution de surveillance de modèle entièrement sur le cloud</li>
                     </ul>
                 </li>
                 <li>
-                    <h3>Pulse Secure LLC, Bengaluru, India</h3>
-                    <p>Software Engineer Intern Apr 2020 - Jun 2020</p>
+                    <h3>Pulse Secure LLC, Bengaluru, Inde</h3>
+                    <p>Stagiaire Ingénieur Logiciel Avril 2020 - Juin 2020</p>
                     <ul>
-                        <li>Developed a Deep LSTM model in TensorFlow to find insider threats from an ensemble dataset of HTTP logs</li>
-                        <li>Developed a web app to review app logs from different sources using Node.js</li>
+                        <li>Développement d'un modèle Deep LSTM en TensorFlow pour détecter les menaces internes à partir d'un ensemble de données de journaux HTTP</li>
+                        <li>Développement d'une application web pour examiner les journaux d'application provenant de différentes sources en utilisant Node.js</li>
                     </ul>
                 </li>
             </ul>
@@ -104,76 +115,73 @@
 
     <section id="projects">
         <div class="container">
-            
             <ul>
-                <li>Deep UNet Architecture for Semantic Segmentation of Melanoma Dermoscopy Images</li>
-                <li>Deep Learning ensembles for Hyper-spectral classification</li>
-                <li>Light to camera communication based indoor positioning system</li>
-                <li>Job Searcher Webapp with NLP for matching results to search keywords</li>
-                <li>Distributed computing network algorithms framework for low latency and high availability</li>
-                <li>Hostel Management System application</li>
-                <li>Scheduling for Soft Real-Time Systems</li>
+                <li>Architecture Deep UNet pour la segmentation sémantique des images de dermoscopie du mélanome</li>
+                <li>Ensembles d'apprentissage profond pour la classification hyper-spectrale</li>
+                <li>Système de positionnement intérieur basé sur la communication lumière-caméra</li>
+                <li>Application web de recherche d'emploi avec NLP pour faire correspondre les résultats aux mots-clés de recherche</li>
+                <li>Cadre d'algorithmes de réseau informatique distribué pour une faible latence et une haute disponibilité</li>
+                <li>Application de gestion de dortoir</li>
+                <li>Planification pour les systèmes en temps réel souple</li>
             </ul>
         </div>
         <div class="container-header">
-            <h2>Selected Projects</h2>
+            <h2>Projets Sélectionnés</h2>
         </div>
     </section>
 
     <section id="research">
         <div class="container-header">
-            <h2>Research Background</h2>
+            <h2>Contexte de Recherche</h2>
         </div>
         <div class="container">
             <ul>
-                <li>"M-CAD: Towards Multi-Categorical Auto Diagnosis of Varied Diseases using Deep Learning"</li>
-                <li>"LiCamPos: An Indoor Positioning System for Advertising using Light to Camera Communication"</li>
-                <li>Built multiple hybrid architectures for improving application-specific performance</li>
+                <li>"M-CAD: Vers un auto-diagnostic multi-catégoriel de diverses maladies utilisant l'apprentissage profond"</li>
+                <li>"LiCamPos: Un système de positionnement intérieur pour la publicité utilisant la communication lumière-caméra"</li>
+                <li>Création de multiples architectures hybrides pour améliorer les performances spécifiques aux applications</li>
             </ul>
         </div>
     </section>
 
     <!-- <section id="skills">
         <div class="container">
-            
-            <p>Python, C++, C, Bash Scripting, Java, Google Cloud, Docker, Kubernetes, Helm, Openshift Cloud, Kubeflow, TensorFlow, Scikit-learn, Pandas, Flask</p>
+            <p>Python, C++, C, Script Bash, Java, Google Cloud, Docker, Kubernetes, Helm, Openshift Cloud, Kubeflow, TensorFlow, Scikit-learn, Pandas, Flask</p>
         </div>
         <div class="container-header">
-            <h2>Skills</h2>
+            <h2>Compétences</h2>
         </div>
     </section> -->
 
     <!-- <section id="volunteering">
         <div class="container-header">
-            <h2>Volunteering and Social Contributions</h2>
+            <h2>Bénévolat et Contributions Sociales</h2>
         </div>
         <div class="container">
             <ul>
-                <li>Teaching English at a Government school</li>
-                <li>Mentoring community college students for Software Engineering and Finance careers</li>
-                <li>Part of Deutsche Bank's Giving community</li>
+                <li>Enseignement de l'anglais dans une école publique</li>
+                <li>Mentorat d'étudiants de collèges communautaires pour des carrières en ingénierie logicielle et finance</li>
+                <li>Membre de la communauté de dons de Deutsche Bank</li>
             </ul>
         </div>
     </section> -->
 
     <!-- <section id="extracurricular">
         <div class="container">
-            
             <ul>
-                <li>Placed Top 10 in The Hindu Young World Painting Competition</li>
-                <li>Working on a web platform for NGOs</li>
-                <li>Photography, Music, Writing Poetry and Blogs</li>
+                <li>Classé dans le Top 10 du concours de peinture Young World de The Hindu</li>
+                <li>Travail sur une plateforme web pour les ONG</li>
+                <li>Photographie, Musique, Écriture de Poésie et Blogs</li>
             </ul>
         </div>
         <div class="container-header">
-            <h2>Extracurricular Activities</h2>
+            <h2>Activités extrascolaires</h2>
         </div>
     </section> -->
 
     <footer>
         <div class="container">
             <p>&copy; 2024 Kains Praveen</p>
-            <!-- <p>Contact: <a href="mailto:kainspraveen33@gmail.com">kainspraveen33@gmail.com</a></p>
+            <!-- <p>Contact : <a href="mailto:kainspraveen33@gmail.com">kainspraveen33@gmail.com</a></p>
             <ul>
                 <li><a href="https://github.com/kainspraveen">GitHub</a></li>
                 <li><a href="https://linkedin.com/in/kainspraveen">LinkedIn</a></li>
@@ -181,6 +189,6 @@
         </div>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
