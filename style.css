@@ -167,6 +167,70 @@ header {
 }
 
 
+.quote-container {
+    margin: auto;
+    margin-top: 5%;
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #333;
+    font-weight: 100;
+    line-height: 1.5;
+
+    
+}
+.qoute {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.qoute p {
+    
+    color: black;
+}
+
+.quote-container:hover .popup {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    visibility: hidden;
+    width: 450px;
+    /* background-color: #555; */
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 0;
+    position: absolute;
+    /* z-index: 1; */
+    margin-top: -2.5%; 
+    /* left: 50%; */
+    /* margin-left: -125px;  */
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.popup::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    opacity: 0.7;
+    border-color: white transparent transparent transparent;
+}
+
+
+
 .bio {
     padding: 0 12.5%;
     line-height: 1.5;
